@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Gadget Multi-Seller</title>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {"@type": "Organization", "name": "Example Marketplace"},
+      {
+        "@type": "Product",
+        "name": "Gadget",
+        "offers": {
+          "@type": "AggregateOffer",
+          "lowPrice": "89.95",
+          "highPrice": "120.00",
+          "priceCurrency": "EUR",
+          "offerCount": 7,
+          "availability": "https://schema.org/LimitedAvailability"
+        }
+      }
+    ]
+  }
+  </script>
+</head>
+<body><h1>Gadget</h1></body>
+</html>
