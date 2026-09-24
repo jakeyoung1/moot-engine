@@ -1,6 +1,8 @@
 # moot-engine
 
-The open-source detection engine behind [Moot](../..) — a browser extension
+[![CI](https://github.com/jakeyoung1/moot-engine/actions/workflows/ci.yml/badge.svg)](https://github.com/jakeyoung1/moot-engine/actions/workflows/ci.yml)
+
+The open-source detection engine behind [Moot](https://github.com/jakeyoung1/moot-site) — a browser extension
 that answers "is this sale real?". This package is the entire brain:
 product-page price extraction, pressure-tactic signal scanning, and
 dynamic-pricing confidence scoring. **MIT licensed. Runs entirely on-device.
